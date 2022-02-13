@@ -38,6 +38,8 @@ class App extends Component {
     // Network ID
     const networkId = await web3.eth.net.getId()
     const networkData = DTube.networks[networkId]
+    window.alert('Network Id is ' + networkId)
+
     if(networkData) {
       const dtube = new web3.eth.Contract(DTube.abi, networkData.address)
       this.setState({ dtube })
