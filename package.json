@@ -1,7 +1,7 @@
 {
-  "name": "DTube",
+  "name": "ideaNet",
   "version": "0.1.0",
-  "description": "Decentralized video sharing & social media platform.",
+  "description": "Decentralized idea sharing & social media platform.",
   "author": "Akhilesh Thite",
   "homepage": ".",
   "dependencies": {

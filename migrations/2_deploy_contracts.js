@@ -1,5 +1,5 @@
-const DTube = artifacts.require("DTube");
+const ideaNet = artifacts.require("ideaNet");
 
 module.exports = function(deployer) {
-  deployer.deploy(DTube);
+  deployer.deploy(ideaNet);
 };
